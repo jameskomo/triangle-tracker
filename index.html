@@ -10,6 +10,7 @@
 
 <body>
   <img src="images/triangle3.png" alt="Triangle3">
+  <img class="triangle-two" src="images/triangle 4.png" alt="Triangle4">
 
 
   <div class="triangle-calc">
@@ -17,17 +18,17 @@
 
     <h1>Triangle Tracker</h1>
 
-  <form autocomplete="off" id="triangle-sides">
+  <form action="index.html" method="post" autocomplete="off" id="triangle-sides">
     <p>
       <label for="sideA">Side A</label>
-      <input id="sideA" type="text" name="sideA" value="" placeholder="enter size of sideA here" required>
+      <input id="sideA" type="text" name="sideA" value="" placeholder="enter size of sideA here" pattern= "\d{4}" required>
     </p>
 
     <p><label for="sideB">Side B</label>
-      <input id="sideB" type="text" name="sideB" value="" placeholder="enter size of sideA here" required>
+      <input id="sideB" type="text" name="sideB" value="" placeholder="enter size of sideA here" pattern= "\d{4}"required>
     </p>
     <label for="sideC">Side C</label>
-    <input id="sideC" type="text" name="sideC" value="" placeholder="enter size of sideA here" required>
+    <input id="sideC" type="text" name="sideC" value="" placeholder="enter size of sideA here" pattern= "\d{4}" required>
 
     <div class="form-buttons">
       <button class="submit "type="submit" name="submit" onclick="getValues()">Check</button>
@@ -41,7 +42,7 @@
 
   <script type="text/javascript" <script src="js/scripts.js" charset="utf-8"></script>
 
-  <footer>Developed by James Komo © 2019</footer>
+  <footer class="footer"><h3>Developed by James Komo © 2019</h3></footer>
 
 </body>
 
