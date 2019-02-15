@@ -4,10 +4,14 @@ function getValues() {
   var sideC = parseInt(document.getElementById('sideC').value);
   var sides = [sideA, sideB, sideC]
 
-  if ((sideA === sideB) && (sideB === sideC)) {
-    alert("This is an Equilateral Triangle");
-  } else if ((sideA > (sideB + sideC)) || (sideB > (sideA + sideC)) || (sideC > (sideA + sideB))) {
+
+  if ((sideA > (sideB + sideC)) || (sideB > (sideA + sideC)) || (sideC > (sideA + sideB))) {
     alert("This is an NOT a Triangle");
+  }
+  else if ((sideA === sideB) && (sideB === sideC)){
+    alert("This is an Equilateral Triangle");
+  // } else if ((sideA > (sideB + sideC)) || (sideB > (sideA + sideC)) || (sideC > (sideA + sideB))) {
+  //   alert("This is an NOT a Triangle");
   } else if ((sideA === sideB) || (sideA === sideC) || (sideB === sideC)) {
     alert("This is an Isosceles Triangle");
   } else if (sideA !== sideB && sideB != sideC && sideC != sideA) {

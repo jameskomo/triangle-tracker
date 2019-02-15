@@ -9,32 +9,33 @@
 
 <body>
 
+  <div class="triangle-calc">
   <h1 class="calc-header"> Triangle Tracker</h1>
 
   <form autocomplete="off" id="triangle-sides">
     <p>
-      <label for="sideA">sideA</label>
+      <label for="sideA">Side A</label>
       <input id="sideA" type="text" name="sideA" value="" placeholder="enter size of sideA here" required>
     </p>
 
-    <p><label for="sideB">sideB</label>
+    <p><label for="sideB">Side B</label>
       <input id="sideB" type="text" name="sideB" value="" placeholder="enter size of sideA here" required>
     </p>
-    <label for="sideC">sideC</label>
+    <label for="sideC">Side C</label>
     <input id="sideC" type="text" name="sideC" value="" placeholder="enter size of sideA here" required>
 
     <div class="form-buttons">
       <button type="submit" name="submit" onclick="getValues()">Check</button>
       <button type="reset" name="reset">Reset</button>
-
     </div>
+  <div>
 
 
   </form>
 
   <script type="text/javascript" <script src="js/scripts.js" charset="utf-8"></script>
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     function getValues() {
       var sideA = parseInt(document.getElementById('sideA').value);
       var sideB = parseInt(document.getElementById('sideB').value);
@@ -54,7 +55,7 @@
     }
 
   }
-  </script>
+  </script> -->
 </body>
 
 </html>

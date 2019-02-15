@@ -1,5 +1,6 @@
 body {
   background-color: #ffcdab;
+  text-align: center;
 }
 
 .submit {
@@ -20,12 +21,15 @@ body {
   border: 1px solid #ced4da;
   border-radius: .25rem;
 }
-
-
 .form-buttons {
   display: block;
 }
 
 .triangle-sides {
   display: block;
+}
+.triangle-calc {
+  background-color: #65c6c4;
+  padding: 30px;
+
 }
