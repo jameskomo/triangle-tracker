@@ -16,7 +16,7 @@ function getValues() {
   } else if (sideA !== sideB && sideB != sideC && sideC != sideA) {
     alert("This is an Scalene Triangle");
   } else {
-    alert("Please enter Triangle lengths");
+      return 0;
   }
 
 }
