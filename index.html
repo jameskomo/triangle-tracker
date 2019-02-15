@@ -8,23 +8,23 @@
 </head>
 
 <body>
-  <script type="text/javascript" <script src="js/scripts.js" charset="utf-8"></script>
+
   <h1 class="calc-header"> Triangle Tracker</h1>
 
-  <form autocomplete="off"id="triangle-sides" action="index.html" method="post">
+  <form autocomplete="off" id="triangle-sides">
     <p>
       <label for="sideA">sideA</label>
-      <input id="sideA" type="text" name="sideA" value="" placeholder="enter size of sideA here" pattern="\d\2" required>
+      <input id="sideA" type="text" name="sideA" value="" placeholder="enter size of sideA here" required>
     </p>
 
     <p><label for="sideB">sideB</label>
-      <input id="sideB" type="text" name="sideB" value="" placeholder="enter size of sideA here" pattern="\d\2" required>
+      <input id="sideB" type="text" name="sideB" value="" placeholder="enter size of sideA here" required>
     </p>
     <label for="sideC">sideC</label>
-    <input id="sideC" type="text" name="sideC" value="" placeholder="enter size of sideA here" pattern="\d\2" required>
+    <input id="sideC" type="text" name="sideC" value="" placeholder="enter size of sideA here" required>
 
     <div class="form-buttons">
-      <button type="submit" name="submit">Check</button>
+      <button type="submit" name="submit" onclick="getValues()">Check</button>
       <button type="reset" name="reset">Reset</button>
 
     </div>
@@ -32,6 +32,29 @@
 
   </form>
 
+  <script type="text/javascript" <script src="js/scripts.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    function getValues() {
+      var sideA = parseInt(document.getElementById('sideA').value);
+      var sideB = parseInt(document.getElementById('sideB').value);
+      var sideC = parseInt(document.getElementById('sideC').value);
+      var sides = [sideA, sideB, sideC]
+
+      if ((sideA ===sideB) && (sideB===sideC)) {
+        alert("This is an Equilateral Triangle");
+      } else if ((sideA > (sideB + sideC)) || (sideB > (sideA + sideC)) || (sideC > (sideA + sideB))) {
+        alert("This is an NOT a Triangle");
+      } else if ((sideA === sideB) || (sideA === sideC) || (sideB === sideC)) {
+        alert("This is an Isosceles Triangle");
+      } else if ((sideA !== sideB !== sideC) && (sideA + sideB > sideC) || (sideB + sideC > sideA) || (sideA + sideC > sideB)) {
+      alert("This is an Isosceles Triangle");
+    } else {
+      alert("Please enter new trinagle lengths");
+    }
+
+  }
+  </script>
 </body>
 
 </html>
