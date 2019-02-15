@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-  </head>
-  <body>
-    <script type="text/javascript" <script src="js/scripts.js" charset="utf-8"></script>
-    <h1 class="calc-header"> Triangle Tracker</h1>
 
-    <form id="triangle-sides" action="index.html" method="post">
-      <label for="sideA"></label>
-      <input id="sideA" type="number" name="sideA" value="Side A size" required>
-      <label for="sideB"></label>
-      <input id="sideB" type="number" name="sideB" value="Side B size" required>
-      <label for="sideC"></label>
-      <input id="sideC" type="number" name="sideC" value="Side C size" required>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
 
-      <div class="form-buttons">
-        <button type="submit" name="submit"></button>
-        <button type="reset" name="reset"></button>
+<body>
+  <script type="text/javascript" <script src="js/scripts.js" charset="utf-8"></script>
+  <h1 class="calc-header"> Triangle Tracker</h1>
 
-      </div>
+  <form autocomplete="off"id="triangle-sides" action="index.html" method="post">
+    <p>
+      <label for="sideA">sideA</label>
+      <input id="sideA" type="text" name="sideA" value="" placeholder="enter size of sideA here" pattern="\d\2" required>
+    </p>
+
+    <p><label for="sideB">sideB</label>
+      <input id="sideB" type="text" name="sideB" value="" placeholder="enter size of sideA here" pattern="\d\2" required>
+    </p>
+    <label for="sideC">sideC</label>
+    <input id="sideC" type="text" name="sideC" value="" placeholder="enter size of sideA here" pattern="\d\2" required>
+
+    <div class="form-buttons">
+      <button type="submit" name="submit">Check</button>
+      <button type="reset" name="reset">Reset</button>
+
+    </div>
 
 
-    </form>
+  </form>
 
-    </body>
+</body>
+
 </html>

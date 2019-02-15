@@ -1,3 +1,19 @@
 body {
   background-color: #ffcdab;
 }
+.submit {
+  width: 60px;
+  background-color: #0a516d;
+
+}
+.reset {
+  width: 60px;
+  background-color: #0a516d;
+}
+
+.form-buttons {
+  display: block;
+}
+.triangle-sides {
+  display: block;
+}
