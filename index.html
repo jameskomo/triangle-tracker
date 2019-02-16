@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
 
-<meta name="viewport" content="width=device-width" charset="utf-8">
+  <meta name="viewport" content="width=device-width" charset="utf-8">
   <meta name="author" content="James Komo">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Crafty+Girls|Dosis|Josefin+Slab|Poiret+One|Saira+Condensed" rel="stylesheet">
   <title>Triangle Tracker</title>
 </head>
+
 <body>
 
   <div class="header">
-  <h1>Triangle Checker</h1>
+    <h1>Triangle Checker</h1>
   </div>
   <div class="triangle-tracker">
     <br>
     <form class="triangleTracker" autocomplete="off">
 
-    <h2><strong>About<strong></h2>
-    <p>
-    <h4>This application will help the user know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all <br>based on values entered through a HTML form for all the sides.<br> The application also validates input to ensure no blanks or strings for triangle side values.</h4></p>
-    <label for="side1"><h3>Enter Side 1</h3></label>
-    <input class="side1" type="text" id="side1" name="side1" value="" placeholder="side1" onkeypress="return isNumberKey(event)" required>
-    <br>
-    <br>
-    <label for="side2"><h3>Enter Side 2</h3></label>
-    <input class="side1" type="text" id="side2" name="side2" value="" placeholder="side2" onkeypress="return isNumberKey(event)" required>
-    <br>
-    <br>
-    <label for="side3"><h3>Enter Side 3</h3></label>
-    <input class="side1" type="text" id="side3" name="side3" value="" placeholder="side3" onkeypress="return isNumberKey(event)" required>
-    <br>
-    <br>
-    <button class="submit" type="submit" id="submit" name="submit" onclick="getValues()">Check</button>
-    <button class="reset" type="reset" id="reset" name="reset">Reset</button>
+      <h2><strong>About<strong></h2>
+      <p>
+        <h4>This application will help the user know whether a triangle is isosceles, equilateral, scalene <br>or NOT a triangle at all based on values entered through a HTML form <br> for all the sides.<br> The application also validates input to
+          ensure no blanks or strings for triangle side values.</h4>
+      </p>
+      <label for="side1">
+        <h3>Enter Side 1</h3>
+      </label>
+      <input class="side1" type="text" id="side1" name="side1" value="" placeholder="side1" onkeypress="return isNumberKey(event)" required>
+      <br>
+      <br>
+      <label for="side2">
+        <h3>Enter Side 2</h3>
+      </label>
+      <input class="side1" type="text" id="side2" name="side2" value="" placeholder="side2" onkeypress="return isNumberKey(event)" required>
+      <br>
+      <br>
+      <label for="side3">
+        <h3>Enter Side 3</h3>
+      </label>
+      <input class="side1" type="text" id="side3" name="side3" value="" placeholder="side3" onkeypress="return isNumberKey(event)" required>
+      <br>
+      <br>
+      <button class="submit" type="submit" id="submit" name="submit" onclick="getValues()">Check</button>
+      <button class="reset" type="reset" id="reset" name="reset">Reset</button>
     </form>
   </div>
-  <script src="js/scripts.js"charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
 </body>
+
 </html>

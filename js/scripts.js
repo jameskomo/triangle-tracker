@@ -1,10 +1,10 @@
 //Function to validate only numbers. No special characters or letters
 
-function isNumberKey(evt){
-    var charCode = (evt.which) ? evt.which : event.keyCode
-    if (charCode > 31 && (charCode < 48 || charCode > 57))
+function isNumberKey(evt) {
+  var charCode = (evt.which) ? evt.which : event.keyCode
+  if (charCode > 31 && (charCode < 48 || charCode > 57))
     return false;
-    return true;
+  return true;
 }
 
 //Function to fetch entered triangle sides from the HRML form
@@ -16,7 +16,7 @@ function getValues() {
 
   //Storing triangle lengths in an array
 
-  var sidesEntered=[side1,side2, side3];
+  var sidesEntered = [side1, side2, side3];
 
   //Converting received input into integers
   var sideA = parseInt(val1);
@@ -33,7 +33,7 @@ function getValues() {
     alert("This is an Isosceles Triangle")
   } else if (sideA + sideB > sideC && sideA != sideB && sideB != sideC || sideA + sideC > sideB && sideA != sideB && sideB != sideC || sideC + sideB > sideA && sideA != sideB && sideB != sideC) {
     alert("This is a Scalene Triangle");
-  } else if ((side1 == null || side1 === "") || (side2 == null || side2 === "")|| (side3 == null || side3 === "")) {
+  } else if ((side1 == null || side1 === "") || (side2 == null || side2 === "") || (side3 == null || side3 === "")) {
     alert("All sides required");
   } else {
     return 0;
