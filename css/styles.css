@@ -73,21 +73,24 @@ h4 {
 }
 
 .side1 {
-  padding-left: 30px;
+  padding-left: 15px;
   width: 30px;
   height: 40px;
+  padding-right: 20px;
 }
 
 .side2 {
-  padding-left: 30px;
+  padding-left: 15px;
   width: 30px;
   height: 40px;
+  padding-right: 20px;
 }
 
 .side3 {
-  padding-left: 30px;
+  padding-left: 15px;
   width: 30px;
   height: 40px;
+  padding-right: 20px;
 }
 
 .submit {
