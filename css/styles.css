@@ -2,41 +2,36 @@
 body {
   background-color: #a7d7c5;
   text-align: center;
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: 'Crafty Girls', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 h2 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Paytone One', sans-serif;
   text-decoration: underline;
   font-weight: bold;
   font-size: 30px;
 }
 
 h3 {
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Syncopate', sans-serif;
 }
 
 h4 {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Bad Script', cursive;
   font-weight: lighter;
   font-size: 18px;
 }
 
 /*CLASSES AND ID STYLING*/
-.header {
-  background-color: #74b49b;
-  border-style: groove;
-}
-
 .triangle-tracker {
   position: relative;
   background-color: #cdffeb;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-top: 5px;
   margin-top: 2px;
   margin-left: 300px;
@@ -44,6 +39,7 @@ h4 {
   border-radius: 7%;
   border-style: inset;
 }
+
 .triangle3 {
   opacity: 0.3;
   width: 220px;
@@ -54,6 +50,28 @@ h4 {
   transform: rotate(45deg);
 }
 
+.triangle1 {
+  opacity: 0.9;
+  width: 220px;
+  height: 320px;
+  float: right;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-right: 50px;
+  transform: rotate(270deg);
+}
+.triangle2 {
+  opacity: 0.1;
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 1000px;
+  height: 1000px;
+  float: right;
+  position: absolute;
+  margin-top: 0;
+
+}
+
 .side1 {
   padding-left: 30px;
   width: 30px;
@@ -61,17 +79,15 @@ h4 {
 }
 
 .side2 {
-  padding-left: 20px;
+  padding-left: 30px;
   width: 30px;
   height: 40px;
-  text-align: left;
 }
 
 .side3 {
-  padding-left: 20px;
+  padding-left: 30px;
   width: 30px;
   height: 40px;
-  font-size: 30px;
 }
 
 .submit {
