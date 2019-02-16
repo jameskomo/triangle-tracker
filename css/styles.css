@@ -44,6 +44,15 @@ h4 {
   border-radius: 7%;
   border-style: inset;
 }
+.triangle3 {
+  opacity: 0.3;
+  width: 220px;
+  height: 220px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 60px;
+  transform: rotate(45deg);
+}
 
 .side1 {
   padding-left: 30px;
