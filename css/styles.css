@@ -1,11 +1,14 @@
 /*TAGS STYLING*/
 
 body {
-  background-color: #009f9d;
+  background-color: #a7d7c5;
   text-align: center;
   margin: auto;
   padding: 0;
 
+}
+h1 {
+  font-family: 'Crafty Girls', cursive;
 }
 
 
@@ -16,10 +19,17 @@ body {
 
 /*CLASSES AND ID STYLING*/
 
+.header {
+  background-color: #74b49b;
+  border-style: groove;
+}
+
 .triangle-tracker {
+position: relative;
 background-color: #cdffeb;
 padding-bottom: 30px;
 padding-top: 30px;
+margin-top: 30px;
 margin-left: 280px;
 margin-right: 280px;
 border-radius: 7%;
