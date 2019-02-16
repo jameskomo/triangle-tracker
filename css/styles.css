@@ -12,8 +12,35 @@ body {
 
 
 
+
+
 /*CLASSES AND ID STYLING*/
 
 .triangle-tracker {
 background-color: #cdffeb;
+padding-bottom: 30px;
+padding-top: 30px;
+margin-left: 280px;
+margin-right: 280px;
+border-radius: 7%;
+border-style: ridge;
+
+}
+
+.side1 {
+  padding-left: 30px;
+  width: 30px;
+  height: 40px;
+}
+.side2 {
+  padding-left: 20px;
+  width: 30px;
+  height: 40px;
+  text-align: left;
+}
+.side3 {
+  padding-left: 20px;
+  width: 30px;
+  height: 40px;
+  font-size: 30px;
 }
