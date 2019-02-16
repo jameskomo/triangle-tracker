@@ -39,6 +39,21 @@
       var side1 = parseInt(val2);
       var side1 = parseInt(val3);
 
+      if (sideA === sideB && sideB === sideC) {
+      console.log('equilateral');
+      alert("This is an equilateral Triangle")
+      }else if (sideA === sideB && sideB != sideC || sideA === sideC && sideC != sideB || sideB == sideC && sideC != sideA) {
+      console.log('isosceles');
+      alert("This is an Isosceles Triangle")
+      } else if(sideA+sideB>sideC && sideA!=sideB && sideB!=sideC || sideA+sideC>sideB && sideA!=sideB && sideB!=sideC || sideC+sideB>sideA && sideA!=sideB && sideB!=sideC) {
+      alert("This is a Scalene Triangle");
+      } else {
+      alert("This is not a Trianle")
+      }
+      }
+      });
+      });
+
     </script>
 
 
