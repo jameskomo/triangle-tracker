@@ -33,7 +33,7 @@ function getValues() {
     alert("This is an Isosceles Triangle")
   } else if (sideA + sideB > sideC && sideA != sideB && sideB != sideC || sideA + sideC > sideB && sideA != sideB && sideB != sideC || sideC + sideB > sideA && sideA != sideB && sideB != sideC) {
     alert("This is a Scalene Triangle");
-  } else if ((side1 == null || side1 === "") || (side2 == null || side2 === "") || (side3 == null || side3 === "")) {
+  } else if ((side1 == null || side1 === ""|| side1 === 0) || (side2 == null || side2 === "") || (side3 == null || side3 === "")) {
     alert("All sides required");
   } else {
     return 0;
