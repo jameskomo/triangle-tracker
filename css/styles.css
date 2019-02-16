@@ -10,7 +10,18 @@ body {
 h1 {
   font-family: 'Crafty Girls', cursive;
 }
-
+h2{
+  font-family: 'Josefin Slab', serif;
+  text-decoration: underline;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Saira Condensed', sans-serif;
+}
+h4 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: lighter;
+}
 
 
 

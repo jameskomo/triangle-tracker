@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width" charset="utf-8">
   <meta name="author" content="James Komo">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Crafty+Girls|Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Crafty+Girls|Dosis|Josefin+Slab|Poiret+One|Saira+Condensed" rel="stylesheet">
   <title>Triangle Tracker</title>
 </head>
 <body>
@@ -20,20 +20,22 @@
     <h2><strong>About<strong></h2>
     <p>
     <h4>This application will help the user know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all <br>based on values entered through a HTML form for all the sides.<br> The application also validates input to ensure no blanks or strings for triangle side values.</h4></p>
-    <label for="side1"><h3>Side 1</h3></label>
+    <label for="side1"><h3>Enter Side 1</h3></label>
     <input class="side1" type="text" id="side1" name="side1" value="" placeholder="side1" onkeypress="return isNumberKey(event)" required>
     <br>
     <br>
-    <label for="side2"><h3>Side 2</h3></label>
+    <label for="side2"><h3>Enter Side 2</h3></label>
     <input class="side1" type="text" id="side2" name="side2" value="" placeholder="side2" onkeypress="return isNumberKey(event)" required>
     <br>
     <br>
-    <label for="side3"><h3>Side 3</h3></label>
+    <label for="side3"><h3>Enter Side 3</h3></label>
     <input class="side1" type="text" id="side3" name="side3" value="" placeholder="side3" onkeypress="return isNumberKey(event)" required>
     <br>
     <br>
+    <div class="buttons">
     <button type="submit" id="submit" name="submit" onclick="getValues()">Check</button>
     <button type="reset" id="reset" name="reset">Reset</button>
+    </div>
   </form>
   </div>
   <script src="js/scripts.js"charset="utf-8"></script>
