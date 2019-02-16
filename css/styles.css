@@ -10,10 +10,11 @@ body {
 h1 {
   font-family: 'Crafty Girls', cursive;
 }
-h2{
+  h2{
   font-family: 'Josefin Slab', serif;
   text-decoration: underline;
   font-weight: bold;
+  font-size: 40px;
 }
 h3 {
   font-family: 'Saira Condensed', sans-serif;
@@ -21,6 +22,7 @@ h3 {
 h4 {
   font-family: 'Dosis', sans-serif;
   font-weight: lighter;
+  font-size: 20px;
 }
 
 
@@ -39,7 +41,7 @@ h4 {
 position: relative;
 background-color: #cdffeb;
 padding-bottom: 30px;
-padding-top: 30px;
+padding-top: 10px;
 margin-top: 30px;
 margin-left: 280px;
 margin-right: 280px;
@@ -64,4 +66,21 @@ border-style: inset;
   width: 30px;
   height: 40px;
   font-size: 30px;
+}
+.submit {
+  background-color: #005792;
+  border-radius: 10%;
+  color: #c5c5c5;
+  border-style: inset;
+  height: 50px;
+  width: 70px;
+}
+
+.reset {
+  background-color: #005792;
+  border-radius: 10%;
+  color: #c5c5c5;
+  border-style: inset;
+  height: 50px;
+  width: 70px;
 }
