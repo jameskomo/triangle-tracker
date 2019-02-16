@@ -1,6 +1,6 @@
-#**Project Name: TRIANGLE TRACKER**
+# **Project Name: TRIANGLE TRACKER**
 
-##**Project description**
+## **Project description**
 This application will help users know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
 
 Based on the functionality of the application, the following will be expected:
@@ -11,19 +11,19 @@ Based on the functionality of the application, the following will be expected:
 -Most importantly, if the sum of any two sides of the triangle is equal to or less than the third remaining side, then a triangle CANNOT be formed using those values. (For example, the values 9,4 & 3 cannot form a triangle.)
 
 
-##**Author information**
+## **Author information**
 
 James Komo
 
 
-##**Setup instructions**
+## **Setup instructions**
 
 Run on this Link: https://jameskomo.github.io/triangle-tracker/
 You need a smartphone, laptop, desktop or any gadget sreen accessible to internet
 Open from a friendly `browser
 
 
-##**Behavior Driven Development (BDD)**
+## **Behavior Driven Development (BDD)**
 
 Triangle Tracker takes the lengths of three sides and determines if they form a valid triangle. If so, the tracker returns the name of the kind of triangle the sides make (Equilateral, Isosceles, Scalene).
 The application enables the user to enter values of a triangle then alerts what type of triangle it is.
@@ -40,25 +40,25 @@ The application does not allow special characters or strings in the input fields
 
 
 
-##**Technologies used**
+## **Technologies used**
 
 IDEs: Atom and Sublime Editor
 Browsers include either: Google Chrome, Mozilla Firefox.
 JavaScript,HTML and CSS
 
 
-##**Known Bugs**
+## **Known Bugs**
 
 No known bugs,but if you come across feel free to contact me through provided contacts.
 
 
-##**Contact information**
+## **Contact information**
 
 Email: james.komoh.com Skype: james.komo
 
 
 
-##**License and Copyright information**
+## **License and Copyright information**
 
 MIT License
 Copyright(c)2019 James Komo
