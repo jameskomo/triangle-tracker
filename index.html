@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-  <meta name="viewport" content="width=device-width" charset="utf-8">
+
+<meta name="viewport" content="width=device-width" charset="utf-8">
   <meta name="author" content="James Komo">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Triangle Tracker</title>
 </head>
 <body>
   <h1>Triangle Checker</h1>
-  <div id="error"></div>
-  <br>
-  <form class="triangleTracker" method="post" autocomplete="off">
+  <div class="triangle-tracker">
+    <br>
+
+    <form class="triangleTracker" autocomplete="off">
     <label for="side1">Side 1</label>
     <input type="text" id="side1" name="side1" value="" placeholder="side1" onkeypress="return isNumberKey(event)" required>
     <br>
@@ -25,6 +28,7 @@
     <button type="submit" id="submit" name="submit" onclick="getValues()">Check</button>
     <button type="reset" id="reset" name="reset">Reset</button>
   </form>
+  </div>
   <script src="js/scripts.js"charset="utf-8"></script>
 </body>
 </html>
